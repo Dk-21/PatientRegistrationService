@@ -1,0 +1,90 @@
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/appsettings.Development.json
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/appsettings.json
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/PatientRegistrationService
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/PatientRegistrationService.deps.json
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/PatientRegistrationService.runtimeconfig.json
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/PatientRegistrationService.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/PatientRegistrationService.pdb
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.csproj.AssemblyReference.cache
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.AssemblyInfoInputs.cache
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.AssemblyInfo.cs
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.csproj.CoreCompileInputs.cache
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.MvcApplicationPartsAssemblyInfo.cs
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.MvcApplicationPartsAssemblyInfo.cache
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/staticwebassets.build.json
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/staticwebassets.development.json
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/staticwebassets/msbuild.PatientRegistrationService.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/staticwebassets/msbuild.build.PatientRegistrationService.props
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.PatientRegistrationService.props
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.PatientRegistrationService.props
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/scopedcss/bundle/PatientRegistrationService.styles.css
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/PatientR.BF9FC429.Up2Date
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/refint/PatientRegistrationService.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.pdb
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.genruntimeconfig.cache
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/obj/Debug/net8.0/ref/PatientRegistrationService.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/Users/denishkalariya/Desktop/Jobs/SDE - Elekta/PatientRegistrationService/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/appsettings.Development.json
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/appsettings.json
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/PatientRegistrationService
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/PatientRegistrationService.deps.json
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/PatientRegistrationService.runtimeconfig.json
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/PatientRegistrationService.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/PatientRegistrationService.pdb
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.csproj.AssemblyReference.cache
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.AssemblyInfoInputs.cache
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.AssemblyInfo.cs
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.csproj.CoreCompileInputs.cache
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.MvcApplicationPartsAssemblyInfo.cs
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.MvcApplicationPartsAssemblyInfo.cache
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/staticwebassets.build.json
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/staticwebassets.development.json
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/staticwebassets/msbuild.PatientRegistrationService.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/staticwebassets/msbuild.build.PatientRegistrationService.props
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.PatientRegistrationService.props
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.PatientRegistrationService.props
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/scopedcss/bundle/PatientRegistrationService.styles.css
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/PatientR.BF9FC429.Up2Date
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/refint/PatientRegistrationService.dll
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.pdb
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/PatientRegistrationService.genruntimeconfig.cache
+/Users/denishkalariya/Desktop/Jobs/PatientRegistrationService/obj/Debug/net8.0/ref/PatientRegistrationService.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qX+JJF53sxlA1/YUVLQ77cy/MTrTNZg01tLysflSmZQ=",
+  "Source": "PatientRegistrationService",
+  "BasePath": "_content/PatientRegistrationService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
