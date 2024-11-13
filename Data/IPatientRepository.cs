@@ -6,9 +6,9 @@ namespace PatientRegistrationService.Data
 {
     public interface IPatientRepository
     {
-        IEnumerable<Patient> GetAllPatients();
-        Patient GetPatient(Guid id);
         void AddPatient(Patient patient);
+        List<Patient> GetAllPatients();
+        Patient GetPatient(Guid id);
         void UpdatePatient(Patient patient);
         void RemovePatient(Guid id);
     }
