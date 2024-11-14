@@ -1,0 +1,214 @@
+1. POST /api/patients - Register a New Patient
+This endpoint registers a new patient in the system. The request body must include demographic and optional diagnosis information.
+
+Request
+Method: POST
+URL: /api/patients
+
+---------------------Request Body (JSON):
+
+json
+Copy code
+
+
+{
+    "name": "Alice Johnson",
+    "medicalRecordNumber": "MRN12345",
+    "age": 45,
+    "gender": "Female",
+    "contacts": ["alice.johnson@example.com", "+1234567890"],
+    "admittingDiagnosis": "BreastCancer"
+}
+
+
+Explanation of Fields:
+
+name: Full name of the patient.
+medicalRecordNumber: Unique identifier for the patient’s medical record.
+age: Patient’s age (integer).
+gender: Patient’s gender.
+contacts: A list of contacts (can include phone numbers, emails).
+admittingDiagnosis: Diagnosis upon admission, accepts one of the following: "BreastCancer", "LungCancer", "ProstateCancer", "Unspecified".
+Response
+Status Code: 201 Created
+
+ ---------------------Response Body (JSON):
+
+json
+Copy code
+{
+    "id": "generated-uuid",
+    "name": "Alice Johnson",
+    "medicalRecordNumber": "MRN12345",
+    "age": 45,
+    "gender": "Female",
+    "contacts": ["alice.johnson@example.com", "+1234567890"],
+    "admittingDiagnosis": "BreastCancer",
+    "attendingPhysician": "Dr. Susan Jones",
+    "department": "Department J"
+}
+Possible Errors
+400 Bad Request: Validation errors on required fields or incorrect format.
+Example:
+json
+Copy code
+{
+    "errors": {
+        "name": ["Name is required."]
+    }
+}
+2. GET /api/patients - Retrieve All Patients
+Retrieves a list of all registered patients.
+
+Request
+Method: GET
+URL: /api/patients
+
+Response
+Status Code: 200 OK
+
+Response Body (JSON):
+
+json
+Copy code
+[
+    {
+        "id": "generated-uuid-1",
+        "name": "Alice Johnson",
+        "medicalRecordNumber": "MRN12345",
+        "age": 45,
+        "gender": "Female",
+        "contacts": ["alice.johnson@example.com", "+1234567890"],
+        "admittingDiagnosis": "BreastCancer",
+        "attendingPhysician": "Dr. Susan Jones",
+        "department": "Department J"
+    },
+    {
+        "id": "generated-uuid-2",
+        "name": "Bob Smith",
+        "medicalRecordNumber": "MRN67890",
+        "age": 52,
+        "gender": "Male",
+        "contacts": ["bob.smith@example.com"],
+        "admittingDiagnosis": "ProstateCancer",
+        "attendingPhysician": "Dr. Ben Smith",
+        "department": "Department S"
+    }
+]
+3. GET /api/patients/{id} - Retrieve a Patient by ID
+Fetches a specific patient by their unique identifier.
+
+Request
+Method: GET
+URL: /api/patients/{id}
+Example URL: /api/patients/generated-uuid-1
+
+Response
+Status Code: 200 OK
+
+Response Body (JSON):
+
+json
+Copy code
+{
+    "id": "generated-uuid-1",
+    "name": "Alice Johnson",
+    "medicalRecordNumber": "MRN12345",
+    "age": 45,
+    "gender": "Female",
+    "contacts": ["alice.johnson@example.com", "+1234567890"],
+    "admittingDiagnosis": "BreastCancer",
+    "attendingPhysician": "Dr. Susan Jones",
+    "department": "Department J"
+}
+Possible Errors
+404 Not Found: If no patient is found with the given ID.
+json
+Copy code
+{
+    "message": "Patient with ID generated-uuid-1 not found."
+}
+4. PUT /api/patients/{id} - Update Patient Information
+Updates a patient’s demographic information. Updates are restricted for patients with an assigned diagnosis.
+
+Request
+Method: PUT
+URL: /api/patients/{id}
+Example URL: /api/patients/generated-uuid-1
+
+---------------------Request Body (JSON):
+
+json
+Copy code
+{
+    "name": "Alice Johnson Updated",
+    "medicalRecordNumber": "MRN67890",
+    "age": 46,
+    "gender": "Female",
+    "contacts": ["alice.johnson.updated@example.com", "+1234567891"]
+}
+Response
+Status Code: 200 OK
+
+---------------------Response Body (JSON):
+
+json
+Copy code
+{
+    "id": "generated-uuid-1",
+    "name": "Alice Johnson Updated",
+    "medicalRecordNumber": "MRN67890",
+    "age": 46,
+    "gender": "Female",
+    "contacts": ["alice.johnson.updated@example.com", "+1234567891"],
+    "admittingDiagnosis": "BreastCancer",
+    "attendingPhysician": "Dr. Susan Jones",
+    "department": "Department J"
+}
+Possible Errors
+400 Bad Request: Attempt to update a restricted field for patients with a diagnosis.
+json
+Copy code
+{
+    "message": "Cannot update demographics for a patient with an assigned diagnosis."
+}
+404 Not Found: If the patient with the given ID does not exist.
+5. DELETE /api/patients/{id} - Delete a Patient
+Deletes a patient from the system. This is allowed only if the patient has no significant diagnosis (Unspecified or null).
+
+---------------------Request
+Method: DELETE
+URL: /api/patients/{id}
+Example URL: /api/patients/generated-uuid-1
+
+---------------------Response
+Status Code: 204 No Content (indicates successful deletion with no response body)
+
+Possible Errors
+400 Bad Request: If the patient has a diagnosis that prevents deletion.
+json
+---------------------Copy code
+
+{
+    "message": "Cannot delete a patient with an assigned diagnosis other than Unspecified."
+}
+404 Not Found: If no patient is found with the specified ID.
+json
+Copy code
+{
+    "message": "Patient with ID generated-uuid-1 not found."
+}
+Summary of API Operations
+Method	Endpoint	Description
+POST	/api/patients	Register a new patient
+GET	/api/patients	Retrieve all patients
+GET	/api/patients/{id}	Retrieve a patient by ID
+PUT	/api/patients/{id}	Update patient information
+DELETE	/api/patients/{id}	Delete a patient (with restrictions)
+Each endpoint includes detailed validations and business rules to ensure consistent data handling and adherence to requirements. These examples provide comprehensive insights into each operation for both testing and usage scenarios. Let me know if you need additional details on any specific part!
+
+
+
+
+
+

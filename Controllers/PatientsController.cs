@@ -34,7 +34,7 @@ namespace PatientRegistrationService.Controllers
             return patient == null ? NotFound(new { Message = $"Patient with ID {id} not found." }) : Ok(patient);
         }
 
-        // POST: api/patients
+        // POST: api/patients API Call
         [HttpPost]
         public IActionResult RegisterPatient([FromBody] CreatePatientDto patientDto)
         {
